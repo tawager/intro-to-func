@@ -1,0 +1,42 @@
+body {
+    background: #ccc;
+}
+
+.tab-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+ul.tabs {
+    display: block;
+    height: 40px;
+}
+
+ul.tabs li {
+    float: left;
+    margin-right: 12px;
+    border: 1px solid black;
+    padding: 8px;
+    margin-top: 21px;
+    background: #ccc;
+}
+
+ul.tabs li.active {
+    background: white;
+    border-bottom: 1px solid white;
+}
+
+.tab-wrapper .panels {
+    border: 1px solid black;
+    min-height: 100px;
+    background: white;
+}
+
+.tab-wrapper .panels .panel {
+    display: none;
+    padding: 24px;
+}
+
+.tab-wrapper .panels .panel.active {
+    display: block;
+}

@@ -1,0 +1,67 @@
+h1 {
+    font-size: 72px;
+    font-family: Helvetica, sans serif;
+    text-align: center;
+    color: green;
+    
+}
+
+table {
+    height: 450px;
+    width: 450px;
+    margin: 100px auto;
+    text-align: center;
+    text-spacing: ;
+    font-size: 96px;
+    border: none;o
+}
+
+td{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    border-collapse: collapse;
+}
+
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+}
+
+.row-1{
+    border-top: none;
+}
+
+td.left {
+    border-left: none;
+}
+
+.row-3  {
+     border-bottom: none;
+}
+
+td.right  {
+    border-right: none;
+}
+
+button {
+    width:  25px;
+    height: 25px;
+    cursor: pointer;
+    float: right;
+    margin: 0 50px 50px 0;
+}
+label {
+    font-family: Helvetica, sans serif;
+    font-size: 25px;
+    color: green;
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+
+}
+
+label:hover {
+    color: red;
+}

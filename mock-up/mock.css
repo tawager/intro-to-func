@@ -1,0 +1,28 @@
+.tab-wrapper {
+     Width: 80%;
+    display: flex;
+
+}
+
+ul.tabs {
+    justify-content: flex-start;
+}
+
+li {
+    visibility: hidden;
+}
+
+li.active {
+    visibility: visible;
+}
+
+panels {
+
+}
+
+.panel {
+
+}
+
+panel.active {
+}
