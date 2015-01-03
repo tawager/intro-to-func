@@ -1,0 +1,10 @@
+#twitterfeed{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+
+#count{
+    margin: 0 auto;
+}

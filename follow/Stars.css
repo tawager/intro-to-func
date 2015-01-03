@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    margin-left: 400px;
+}
+
+div {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+}
+#one_star {
+    left: 50px;
+    height: 50px;
+    width: 100px;
+     background-color: teal;
+}
+
+#two_stars {
+    left:  200px;
+    height: 50px;
+    width: 100px;
+    background-color: snow;
+}
+
+#three_stars {
+    left: 350px;
+    background-color: darkgoldenrod;
+}
+
+#four_stars {
+    left: 500px;
+    background-color: darkolivegreen;
+}
+
+#five_stars {
+    left: 650px;
+     background-color: darkorange;
+}
+
+div.selected {
+    border: 10px solid red !important;
+}
